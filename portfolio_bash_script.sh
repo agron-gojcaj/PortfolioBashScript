@@ -36,7 +36,7 @@ while [ $status = "y" ]; do
 		;;
 	*) echo "Invalid choice" ;;
 	esac
-	echo "Do u want to continue (y/n)) ?"
+	echo "Do you want to continue (y/n)) ?"
 	read status
 	if [ $status != "y" ]; then
 		exit
